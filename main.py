@@ -30,6 +30,7 @@ with sr.Microphone() as escutando:
     nome_usuario = audio.recognize_google(voz, language='pt')
     nome_usuario = nome_usuario.lower().replace('meu nome é', '')
 
+# TODO Fernanda não está falando as mensagens abaixo, verificar o que pode ter ocorrido.
 if hora_atual < 12 and hora_atual > 6:
     if datetime.today().weekday() == 4:
         fernanda.say(
