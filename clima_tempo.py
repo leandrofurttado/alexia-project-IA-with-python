@@ -1,7 +1,7 @@
 import requests
 import json
 
-token = '051f61db0421b144431738d8c0194744'
+
 cidade = 'belo horizonte'
 endereco_api = 'http://api.openweathermap.org/data/2.5/weather?appid=051f61db0421b144431738d8c0194744&q='
 url = endereco_api + cidade
